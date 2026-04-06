@@ -11,17 +11,10 @@ export default function Module2Chapter2() {
     <div className="chapter-layout">
       <FullscreenButton />
       <div className="title-badge animate-float" style={{ background: '#6BCB77' }}>Module 2: Express & Reflect</div>
-      
+
       <AnimatedCard style={{ width: '100%' }}>
         <BouncyTitle text="Chapter 2: Reflect & Connect" />
       </AnimatedCard>
-
-      <img 
-        src={`${imgPrefix}/s/articles/69cb451faf1f3e9ce079482a/images/image-20260331092304-6.png`} 
-        alt="Reflect and Connect Visual" 
-        style={{ width: '100%', maxWidth: '350px', borderRadius: '16px', border: '5px solid #222', boxShadow: '6px 6px 0 #845EC2' }}
-      />
-
       <WavyDivider color1="#845EC2" color2="#FF6EC7" />
 
       <AnimatedCard style={{ width: '100%' }} delay={0.1}>
